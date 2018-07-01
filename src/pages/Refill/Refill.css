@@ -1,0 +1,24 @@
+.refill {
+  margin: 0 auto;
+  max-width: 640px; }
+  .refill__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+  .refill__icon {
+    max-width: 100%;
+    max-height: 150px; }
+  .refill__input-number {
+    width: 100%; }
+  .refill__button-wrapper {
+    display: flex;
+    justify-content: center; }
+  @media (max-width: 576px) {
+    .refill {
+      max-width: 280px; }
+      .refill__icon-wrapper {
+        margin-bottom: 20px; }
+      .refill__icon {
+        max-height: 100px; }
+      .refill__button-wrapper .ant-form-item-control-wrapper {
+        width: auto; } }

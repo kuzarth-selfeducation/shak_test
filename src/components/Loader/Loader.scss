@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.loader {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - #{$indent * 2});
+  transform: translateY(-50%);
+
+  @include respond-to(sm) {
+    width: calc(100% - #{$indent-sm * 2});
+  }
+}

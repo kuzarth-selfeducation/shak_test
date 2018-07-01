@@ -1,0 +1,11 @@
+.app {
+  position: relative;
+  min-height: 100vh; }
+  .app__content {
+    padding: 50px;
+    min-height: 280px; }
+  @media (max-width: 576px) {
+    .app__header {
+      padding: 0 20px; }
+    .app__content {
+      padding: 20px; } }

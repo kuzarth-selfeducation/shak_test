@@ -1,0 +1,22 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.app {
+  position: relative;
+  min-height: 100vh;
+
+  &__content {
+    padding: $indent;
+    min-height: 280px;
+  }
+
+  @include respond-to(sm) {
+    &__header {
+      padding: 0 $indent-sm;
+    }
+
+    &__content {
+      padding: $indent-sm;
+    }
+  }
+}
